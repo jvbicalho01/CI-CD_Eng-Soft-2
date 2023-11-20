@@ -1,4 +1,5 @@
-from typing_extensions import Self
+# from typing_extensions import Self
+import pytest
 
 from calculator import Calculator
 
