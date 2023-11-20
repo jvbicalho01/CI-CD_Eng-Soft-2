@@ -12,7 +12,7 @@ class TestCalculator:
         assert(self.calc.sum(1, 2) == 3)
 
     def test_subtraction(self):
-        assert(self.calc.subtract(5, 4) == 1)
+        assert(self.calc.subtraction(5, 4) == 1)
 
     def test_subtraction_negative_result(self):
-        assert(self.calc.subtract(-6, -7) == -1)
+        assert(self.calc.subtraction(-6, -7) == -1)
