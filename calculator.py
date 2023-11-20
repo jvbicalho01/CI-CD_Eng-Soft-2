@@ -1,3 +1,5 @@
+import numpy as np
+
 class Calculator:
 
   def sum(self, a, b):
@@ -11,3 +13,8 @@ class Calculator:
   
   def div(self, a, b):
     return a / b
+  
+  def sqrt(self, n):
+    if (n < 0):
+      raise ArithmeticError
+    return np.sqrt(n)
