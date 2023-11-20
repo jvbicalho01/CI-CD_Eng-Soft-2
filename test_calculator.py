@@ -15,4 +15,4 @@ class TestCalculator:
         assert(self.calc.subtraction(5, 4) == 1)
 
     def test_subtraction_negative_result(self):
-        assert(self.calc.subtraction(6, -7) == -1)
+        assert(self.calc.subtraction(6, 7) == -1)
